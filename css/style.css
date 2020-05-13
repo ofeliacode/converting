@@ -472,7 +472,7 @@ hr{
 .footer-link a:hover{
     opacity: 0.4;
 }
-@media (max-width: 765px){
+@media (max-width: 767px){
     .toggle{
         clear: both;
         display: block;
@@ -681,4 +681,106 @@ hr{
         padding-right: 5%;
     
      }
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+    .menu li a.logo{
+        margin-right: 0;
+        margin-left: 1.5em;
+    }
+    .menu li a.contacts{
+        margin-right: 60px;
+    }
+.intro .intro-text {
+    right: 0;
+}
+.cards{
+    grid-template-columns: repeat(2,1fr); 
+}
+.buttons-search{
+    height: 14rem;
+    width: 100%;
+    position: relative;
+}
+form{
+    margin: 0 auto;
+}
+.all{
+    bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    left: 0;
+
+}
+.steps-container {
+    flex-direction: column;
+   
+    align-items: center;
+}
+.stepblock{
+    width: 80%;
+}
+.steps h2,p{
+    text-align: center;
+}
+.services img{
+    width: 100%;
+    height: auto;
+    display: none;
+
+}
+.serv-img-container {
+    width: 0;
+}
+.services h2, p{
+    text-align: center;
+    padding: 10px;
+}
+.serv-text p{
+    text-align: justify;
+}
+.serv-container{
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+}
+.agent-card{
+    margin-top:15px;
+}
+.agent-cards {
+    flex-direction: column;
+    align-items: center;
+}
+.agents h2{
+    text-align: center;
+}
+.add-line{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.add-line p{
+    margin-left: 0px;
+}
+.add-line h3{
+    margin-left: 0px;
+}
+.add-line-right p {
+    margin-right: 0;
+}
+.show-more {
+    margin-left: 0;
+}
+.footer-block{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-search{
+    margin-top: 19px;
+}
+
 }
